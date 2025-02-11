@@ -1,0 +1,1 @@
+This repo consists of the Basic Java Assignments provided and assessed by university professionals.   
