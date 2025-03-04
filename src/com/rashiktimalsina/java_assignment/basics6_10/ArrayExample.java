@@ -1,4 +1,4 @@
-package com.rashiktimalsina.java_assignment;
+package com.rashiktimalsina.java_assignment.basics6_10;
 
 public class ArrayExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.rashiktimalsina.java_assignment;
+package com.rashiktimalsina.java_assignment.basics6_10;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package com.rashiktimalsina.java_assignment;
+package com.rashiktimalsina.java_assignment.basics6_10;
 
-public class Primitive{
+public class PrimitiveEx {
     public static void main(String[] args) {
         int age = 25;
         float price = 45.75f;
@@ -9,7 +9,7 @@ public class Primitive{
 
         System.out.println("Age: " + age);
         System.out.println("Price: " + price);
-        System.out.println("Grade: " + letter);
-        System.out.println("Passed: " + isLearning);
+        System.out.println("Letter: " + letter);
+        System.out.println("Boolean: " + isLearning);
     }
 }

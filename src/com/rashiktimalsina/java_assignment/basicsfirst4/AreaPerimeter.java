@@ -1,4 +1,4 @@
-package com.rashiktimalsina.java_assignment;
+package com.rashiktimalsina.java_assignment.basicsfirst4;
 
 public class AreaPerimeter {
     public static void main(String[] args) {
