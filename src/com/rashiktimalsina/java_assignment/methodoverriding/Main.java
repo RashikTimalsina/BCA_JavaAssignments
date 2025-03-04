@@ -1,5 +1,48 @@
 package com.rashiktimalsina.java_assignment.methodoverriding;
 
+
+class Bank						//Parent Class
+{
+
+    int getInterest()
+    {
+
+        return 0;
+
+    }
+
+
+}
+
+class NIC extends Bank
+{
+
+    int getInterest()
+    {
+
+        return 8;
+
+    }
+
+}
+
+
+
+class NRB extends Bank
+{
+
+    int getInterest()
+    {
+
+        return 5;
+
+    }
+
+
+}
+
+
+
 class Main
 {
 
