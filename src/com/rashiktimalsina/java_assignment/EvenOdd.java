@@ -1,4 +1,4 @@
-package com.rashiktimalsina.assignment;
+package com.rashiktimalsina.java_assignment;
 
 import java.util.Scanner;
 

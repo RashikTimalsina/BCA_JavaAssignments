@@ -1,12 +1,11 @@
-package com.rashiktimalsina.assignment;
+package com.rashiktimalsina.java_assignment;
 
 import java.util.Scanner;
 
 public class Average {
     public static void main(String[] args) {
 
-        int sum = 0;
-        int num = 5;
+        int sum = 0, num = 5;
         int[] arr = new int[num];
         System.out.println("Enter the five elements in the array: ");
 
