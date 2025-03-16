@@ -13,17 +13,6 @@ class NegativeDenominatorException extends RuntimeException {
 
 public class ArithmeticNegativeDenominator {
 
-     static double divide(int num, int den) throws NegativeDenominatorException {
-        if (den < 0) {
-            throw new NegativeDenominatorException("Error : Denominator cannot be negative!");
-        }
-        if (den == 0) {
-            throw new ArithmeticException("Denominator cannot be zero!");
-        }
-
-        return (double) num/ den;
-    }
-
     public static void main(String[] args) {
         int numerator = 10;
         int denominator = -2;
@@ -37,4 +26,16 @@ public class ArithmeticNegativeDenominator {
             System.out.println(e.getMessage());
         }
     }
+
+    static double divide(int num, int den) throws NegativeDenominatorException {
+        if (den < 0) {
+            throw new NegativeDenominatorException("Error : Denominator cannot be negative!");
+        }
+        if (den == 0) {
+            throw new ArithmeticException("Denominator cannot be zero!");
+        }
+
+        return (double) num/ den;
+    }
+
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @created 14/03/2025
  */
 
-class InvalidAgeException extends Exception {
+class InvalidAgeException extends RuntimeException {
     public InvalidAgeException(String message) {
         super(message);
     }
